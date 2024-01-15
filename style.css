@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* Common Shared CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Mulish", sans-serif;
+}
+
+body {}
+
+/* Header Related CSS */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 100px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-name {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.travel {
+    color: #FF5400;
+}
+
+
+.menu {
+    font-size: 30px;
+    visibility: hidden;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    margin-right: 40px;
+
+}
+
+.nav-items li a {
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.nav-items .home {
+    color: #FF5400;
+}
+
+.nav-items .contact {
+    margin-right: -40px;
+}
+
+/* Banner related CSS */
+
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Group.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    height: 500px;
+    margin: 0 100px;
+    border-radius: 16px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+}
+
+
+.banner-heading {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.banner-p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.banner-style {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    gap: 20px;
+}
+
+.banner-style .where {
+    padding: 16px 50px 16px 16px;
+    width: 80px;
+    border-radius: 8px;
+    background-color: #FFF;
+    color: #424247;
+}
+
+.banner-style select {
+    width: 150px;
+    border-radius: 8px;
+    padding: 16px 0px 16px 16px;
+    background-color: #FFF;
+}
+
+.banner-style .find-now {
+    padding: 16px 28.4px 16px 28.4px;
+    background: #FF5400;
+    color: #FFF;
+    border-radius: 8px;
+    font-weight: bold;
+}
