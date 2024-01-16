@@ -143,4 +143,37 @@
     .why-p {
         font-size: 12px;
     }
+
+    .newsletter-container {
+        flex-direction: column;
+        margin: 0 30px;
+    }
+    .travel-btn {
+        top: 180px;
+    }
+    .newsletter-pic-sec img{
+        height: 300px;
+    }
+    .booking-container {
+        margin: 30px 30px;
+    }
+    .booking-card-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .booking-card img {
+        width: 100%;
+    }
+
+
+
+
+    .deals-container {
+        margin: 100px 30px;
+        text-align: center;
+    }
 }
