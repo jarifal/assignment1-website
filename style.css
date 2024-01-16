@@ -365,13 +365,21 @@ body {}
 .deals-banner {
     background-image: url("Images/Group\ 39.png");
     margin-bottom: 50px;
-    /* width: 1170px;
-    height: 500px; */
+}
+
+.deals-banners {
+    background-image: url("Images/Group\ 40.png");
+    margin-bottom: 50px;
 }
 
 .book-container {
     display: flex;
     justify-content: right;
+}
+
+.books-container {
+    display: flex;
+    justify-content: left;
 }
 
 
