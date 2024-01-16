@@ -2,18 +2,22 @@
     .navbar {
         margin: 20px;
     }
+
     .banner {
         margin: 20px;
         background-size: cover;
         height: 100%;
         background-position: center;
     }
+
     .banner-content {
         margin-top: 50px;
     }
+
     .menu {
         visibility: visible;
     }
+
     .nav-item-section {
         display: none;
     }
@@ -48,5 +52,95 @@
         padding: 25px;
         flex-direction: column;
         margin: 30px;
+    }
+
+    .banner-container {
+        margin-bottom: 0px;
+    }
+
+    .populer-container {
+        display: flex;
+        margin: 30px;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .populer-picture img {
+        width: 100%;
+    }
+
+    .populer-content-heading {
+        font-size: 35px;
+    }
+
+    .populer-content {
+        margin-bottom: -15px;
+    }
+
+    .destination-heading {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .destination-p {
+        margin-bottom: 20px;
+    }
+
+    .destination-content {
+        margin: 0 30px;
+    }
+
+    .destination-p {
+        font-size: 12px;
+    }
+
+    .picture-sec1 {
+        flex-direction: column;
+        margin-bottom: 0px;
+        gap: 0px;
+    }
+
+    .maldives-pic img {
+        height: 200px;
+    }
+
+    .indonessia-pic img {
+        height: 200px;
+    }
+
+    .srilanka-pic img {
+        height: 200px;
+    }
+
+    .north-america-pic img {
+        height: 200px;
+    }
+
+    .kashmir-pic img {
+        height: 200px;
+    }
+
+    .bangladesh-pic img {
+        height: 200px;
+    }
+
+    .bandarban-pic img {
+        height: 200px;
+    }
+
+    .pic-content {
+        bottom: 115px;
+    }
+    .why-container {
+        margin: -50px 30px;
+    }
+    .hotel-container {
+        flex-direction: column;
+    }
+    .price {
+        margin: 0;
+    }
+    .why-p {
+        font-size: 12px;
     }
 }
